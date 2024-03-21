@@ -1,6 +1,7 @@
 import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Shared/Navigation/Navigation";
+import Footer from "@/components/Shared/Navigation/Footer";
 
 const inter = Roboto_Serif({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navigation />
         {children}
+        <Footer/>
       </body>
     </html>
   );

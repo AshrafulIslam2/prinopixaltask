@@ -34,11 +34,11 @@ const Navigation = () => {
     <motion.div
     variants={{
         visible:{y:0},
-        hidden:{y:"-100%" }
+        hidden:{y:"-100%", }
     }}
     animate={hideNavbar? "hidden" : "visible"}
     transition={{duration:0.35,ease:"easeInOut"}}
-     className=" z-50  sticky  top-0" 
+     className=" z-40  sticky  top-0 bg-white " 
     >
       <div className="flex justify-between py-[36px]   px-[24px] sm:px-[32px] lg:px-[100px]">
         <div>

@@ -1,6 +1,9 @@
-import Title from "@/UI/Title";
+
 import HeroSection from "@/components/Home/HeroSection";
 import HeroSectionDescription from "@/components/Home/HeroSectionDescription";
+import HomeGrid from "@/components/Home/HomeGrid";
+import Project from "@/components/Home/Project";
+import Slider from "@/components/Home/Slider";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,7 +11,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between">
      <HeroSection/>
      <HeroSectionDescription/>
-     <Title/>
+     <Project/>
+     <HomeGrid/>
+     <Slider/>
     </main>
   );
 }
