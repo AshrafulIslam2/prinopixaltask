@@ -2,6 +2,7 @@
 import HeroSection from "@/components/Home/HeroSection";
 import HeroSectionDescription from "@/components/Home/HeroSectionDescription";
 import HomeGrid from "@/components/Home/HomeGrid";
+
 import Project from "@/components/Home/Project";
 import Slider from "@/components/Home/Slider";
 import Image from "next/image";
